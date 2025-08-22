@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons-Up Score Keeper</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<header class="header">
+    <h3>Find your desired Page Theme, if you so desire:</h3> <p id="colorPicker">Click Me!</p>
+    <div>
+        <button id="layoutButton">Had enough</button>
+    </div>
+</header>
+<body>
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+    </style>
+    <div>
+        <h1>Game Central</h1>
+    </div>
+
+    <div>
+        <img src="resources/images/scorekeeper.png" alt="ScoreKeeper GameBoard">
+    </div>
+    
+    <div class="container">
+        <h2 class="title">Buttons-Up Score Keeper</h2>
+        <p class="description">Keep track of scores for two players with ease!</p>
+        
+        <div class="scorecard">
+            <h3>Scoreboard</h3>
+            <div class="score-container">    
+                <div class="scoreboard1">
+                    <span>Player 1: </span>
+                    <span id="player1Score">0</span>
+                <button id="p1button">P1 +1</button>
+                <!-- Subtraction Case for double-press for example then:  <button id="p1subtract">P1 -1</button> -->
+                </div>
+
+                <div class="scoreboard2">
+                    <span>Player 2: </span>
+                    <span id="player2Score">0</span>
+                <button id="p2button">P2 +1</button>
+                <!-- Subtraction Case for double-press for example then:  <button id="p2subtract">P2 -1</button> -->
+                </div>
+
+            </div>
+            
+            <div>
+                    <button id="reset">Reset</button>
+            
+            </div>
+        
+        </div>
+    </div>
+
+
+    <script src="resources/script/app.js"></script>
+    <script src="resources/script/views.js"></script>
+    <script src="resources/script/gscore.js"></script>
+</body>
+
+<div class="contact">
+    <h3>Contact Us</h3>
+    <p>If you had any inch of fun, feel free to leave a like! Or better yet, a 5 star rating?</p>
+</div>
+<footer>
+    <p>&copy; 2025 Buttons-Up App</p>
+    <p>All rights reserved.</p>
+    designed by [Lionel Ilunga]
+
+</footer>
+</html>
